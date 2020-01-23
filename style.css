@@ -46,6 +46,10 @@ ul li a{
     background-color: blueviolet;
     margin-right: 5px;
 }
+ul>li>a:hover{
+    background-color: crimson;
+
+}
 .title{
    color:blueviolet;
    padding-top: 10px;
@@ -159,11 +163,17 @@ table, th, td {
     background-color: blueviolet;
     font-family: 'Pacifico', cursive;
 }
+#chat:hover{
+    background-color: crimson;
+}
 #start{
     border:2px solid rgb(73, 73, 72);
     border-radius: 5px;
     background-color: blueviolet;
     font-family: 'Pacifico', cursive;
+}
+#start:hover{
+    background-color: crimson;
 }
 h1{
     text-align: center;
